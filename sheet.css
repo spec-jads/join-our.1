@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #b6f0f048;
+}
+
+.join{
+    /* display: block; */
+    background-color: #e6dada;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-shadow: 5px 5px 12px #ddd;
+    /* width:100%; */
+   
+}
+.our,.thirty,.gain,h1,.full,.submit,.points,.per{
+    padding: 15px;
+}
+.our{
+
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: rgb(116, 197, 197);
+}
+.thirty{
+
+  color: #9bca54;
+  font-size: 1em;
+}
+.gain{
+
+    font-size: 1em;
+    color: #7a7a7a;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #fff;
+}
+.monthly{
+    display: block;
+    background-color: #22bbbb;
+    color: #fff;
+    text-transform: none;
+    width: 100%;
+}
+.per{
+    
+    font-size: 1.3em;
+}
+span{
+   font-size: 0.4em;
+}
+.submit{
+    text-align: center;
+}
+.sign{
+    font-size: 1em;
+    color: #fff;
+    background-color: #80cc0f;
+    padding: 12px;
+    width: 85%;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+.us{
+    display: block;
+    color: #fff;
+    width: 100%;
+    background-color: #8ccece;
+    /* border-bottom-left-radius: 9px; */
+    border-bottom-right-radius: 9px;
+}
+div.points p{
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+/* media queries */
+
+/* mobile */
+@media screen and (min-width:320px) {
+    body{
+        font-size: 15px;
+       
+    }
+    /* .tablet{
+        display: grid;
+        grid-template-columns: 0.9fr 1fr ;
+    }
+     */
+     .room{
+        padding: 56px;
+    }    
+      
+   /* tablet laptop */
+   @media screen and (min-width:620px) {
+       body{
+           font-size: 17px;
+        
+       } 
+
+       .monthly{
+    
+        border-bottom-left-radius: 9px; 
+    
+}
+.room{
+    padding: 56px;
+}    
+
+
+.tablet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+} 
+
+ 
+/* grid method */
+     
+     
+   }
+    /*pc   */
+   @media screen and (min-width:900px){
+          body{
+              font-size: 18px;
+            
+          }
+      .room{
+          padding: 56px;
+      }    
+ 
+
+ }
